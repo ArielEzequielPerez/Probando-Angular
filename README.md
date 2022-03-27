@@ -1,2 +1,6 @@
-# Probando-Angular
-Aprendiendo Angular y reforzando mis conocimientos  en .Net Core
+# Pasos para ejecutar la app
+
+## Instalación de Node.js y angular
+- [Node.js](https://nodejs.org/es/)
+- [Angular](https://angular.io/cli)
+
