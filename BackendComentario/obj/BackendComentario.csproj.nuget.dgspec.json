@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ariel\\OneDrive\\Documentos\\github\\Probando-Angular\\BackendComentario\\BackendComentario.csproj": {}
+    "D:\\Usuario\\Escritorio\\Probando-Angular\\BackendComentario\\BackendComentario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ariel\\OneDrive\\Documentos\\github\\Probando-Angular\\BackendComentario\\BackendComentario.csproj": {
+    "D:\\Usuario\\Escritorio\\Probando-Angular\\BackendComentario\\BackendComentario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ariel\\OneDrive\\Documentos\\github\\Probando-Angular\\BackendComentario\\BackendComentario.csproj",
+        "projectUniqueName": "D:\\Usuario\\Escritorio\\Probando-Angular\\BackendComentario\\BackendComentario.csproj",
         "projectName": "BackendComentario",
-        "projectPath": "C:\\Users\\ariel\\OneDrive\\Documentos\\github\\Probando-Angular\\BackendComentario\\BackendComentario.csproj",
-        "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ariel\\OneDrive\\Documentos\\github\\Probando-Angular\\BackendComentario\\obj\\",
+        "projectPath": "D:\\Usuario\\Escritorio\\Probando-Angular\\BackendComentario\\BackendComentario.csproj",
+        "packagesPath": "C:\\Users\\ariel perez\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuario\\Escritorio\\Probando-Angular\\BackendComentario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ariel perez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.14, )"
@@ -77,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
