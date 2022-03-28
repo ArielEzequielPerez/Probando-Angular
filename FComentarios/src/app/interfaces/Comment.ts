@@ -1,7 +1,7 @@
-export interface comment{
+export interface Comment{
     id?: number;
     title: string;
     creator: string;
     text: string;
-    Date: Date;
+    DateCreate: Date;
 }
