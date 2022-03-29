@@ -1,1 +1,6 @@
-<p>view-comment works!</p>
+<div *ngif = "comment != undefined">
+    <h5>{{ comment.title }}</h5>
+    <h3> {{ comment.creator}}</h3>
+    <h3> {{ comment.text }} </h3>
+    <h3> {{ comment.DateCreate | date: 'dd/mm/yyyy'}} </h3>
+</div>

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 //componet
 import { AppRoutingModule } from './app-routing.module';
@@ -9,6 +10,7 @@ import { AddEdditCommentComponent } from './components/add-eddit-comment/add-edd
 import { ListCommentComponent } from './components/list-comment/list-comment.component';
 import { ViewCommentComponent } from './components/view-comment/view-comment.component';
 import { ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,8 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

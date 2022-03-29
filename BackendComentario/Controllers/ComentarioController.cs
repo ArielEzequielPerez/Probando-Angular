@@ -76,7 +76,7 @@ namespace BackendComentario.Controllers
             if (commentToUpdate == null)
                 return BadRequest();
 
-            _mapper.Map(commentUpdateDto, commentToUpdate);
+            await _mapper.Map(commentUpdateDto, commentToUpdate);
             if (!await _repository.SaveAll())
                 return NoContent();
             return Ok(new { messege = "comentario actualiado con exito"});
